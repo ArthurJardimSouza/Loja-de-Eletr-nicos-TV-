@@ -34,24 +34,24 @@ public class Atendente {
     }
 
     public String Marca() {
-        System.out.print("\n" + CYAN + "📌 Informe a marca do produto: " + RESET);
+        System.out.print("\n" + CYAN + "  Informe a marca do produto: " + RESET);
         input.nextLine();
         return input.nextLine();
     }
 
     public double Tamanho() {
-        System.out.print(CYAN + "📏 Informe o tamanho da TV (pol): " + RESET);
+        System.out.print(CYAN + "  Informe o tamanho da TV (pol): " + RESET);
         return input.nextDouble();
     }
 
     public String Resolucao() {
-        System.out.print("\n" + CYAN + "🖥 Informe a resolução da TV: " + RESET);
+        System.out.print("\n" + CYAN + "  Informe a resolução da TV: " + RESET);
         input.nextLine();
         return input.nextLine();
     }
 
     public double Preco() {
-        System.out.print(CYAN + "💲 Informe o preço do produto: " + RESET);
+        System.out.print(CYAN + "  Informe o preço do produto: " + RESET);
         return input.nextDouble();
     }
 
@@ -67,13 +67,13 @@ public class Atendente {
     }
 
     public String remover_tv() {
-        System.out.print("\n" + RED + "❌ Informe a marca do produto que deseja remover: " + RESET);
+        System.out.print("\n" + RED + "  Informe a marca do produto que deseja remover: " + RESET);
         input.nextLine();
         return input.nextLine();
     }
 
     public String busca_tv() {
-        System.out.print("\n" + BLUE + "🔍 Informe a marca do produto que deseja buscar: " + RESET);
+        System.out.print("\n" + BLUE + "  Informe a marca do produto que deseja buscar: " + RESET);
         input.nextLine();
         return input.nextLine();
     }
